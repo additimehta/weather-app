@@ -11,7 +11,7 @@ root = Tk()
 root.title("Weather App")
 root.configure(bg = "white")
 
-img = Image.open("C:/Users/suman/Desktop/PycharmProjects/weatherapp/weathericon.png")
+img = Image.open("weathericon.png")
 img = img.resize((150, 150))
 img = ImageTk.PhotoImage(img)
 
